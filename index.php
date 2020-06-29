@@ -30,7 +30,7 @@
       <!--phpinfo()-->
       <?php $session_lifetime = 200; session_set_cookie_params ($session_lifetime); session_start(); ?>
       <?php include ('form.php'); ?>
-  		<?php include ('formhtml.php'); ?>
+  		<?php include ('formview.php'); ?>
   		<?php include ('admin.php'); ?>
       <!-- php include ('admin.php'); ?> -->
 </body>
